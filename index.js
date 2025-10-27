@@ -10,16 +10,20 @@
 // Find the endpoint that lets you search for GIFs 
 // Save the base and path in a variable below
 
+let requestURL = "https://api.giphy.com/v1/gifs/search"
+
+let API_key = "JXrN3XBIK6nCvc1msOBiWzNf2CGY2g94"
 
 // Task 3: Building full request URL
 // Find the request (query) parameters to build the full request URL to search for 1 raccoon GIFs
 // Save it in a variable below
 
+let requestURL67 = "https://api.giphy.com/v1/gifs/search?q=racoon&limit=1&API_key=" + API_key
 
 // Task 4: Making the API call
 // Define the function to fetch the data and console log the url key
 
-
+async funtion racoon()
 
 // Call the function to test it worked
 
